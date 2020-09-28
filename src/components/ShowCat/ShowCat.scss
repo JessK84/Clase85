@@ -1,0 +1,29 @@
+.container-img {
+    margin: 0px auto;
+    box-sizing: 800px;
+    text-align: center;
+    // float: center;
+    .shor-img-cat {
+        margin:0px;
+        width: 700px;
+        height: 500px;
+        overflow: hidden;
+        img {
+            margin: 40px 0px 0px;
+            width: 60%;
+            object-fit: cover;
+        }
+    }
+    h1 {
+        text-align: center;
+        background-color: #004D40;
+        margin: 0px;
+        padding: 20px 0px;
+        color: white;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+      }
+      
+
+}

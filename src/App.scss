@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;500&family=Open+Sans&display=swap');
+
+.app {
+  text-align: center;
+  // position: absolute;
+  width: 100vw;
+  height: 100vh;
+  .button {
+    margin: 0;
+    position: fixed;
+    top: 200px;
+    right: 300px;
+    z-index: 200;
+    background-color: #D32F2F;
+    padding: 10px 7px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #b62222;
+    }
+    &:focus {
+      background-color: #d87676;
+      color: black;
+      outline: none;
+    }
+  }
+  
+}
+
+
+
